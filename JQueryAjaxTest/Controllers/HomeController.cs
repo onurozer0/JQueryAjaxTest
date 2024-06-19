@@ -10,5 +10,9 @@ namespace JQueryAjaxTest.Controllers
 		{
 			return View();
 		}
-	}
+        public IActionResult AddCourse()
+		{
+			return View();
+		}
+    }
 }

@@ -18,4 +18,27 @@
             <!-- Veriler burada gösterilecek -->
         </tbody>
     </table>
+    <button onclick="load()">TIKLA</button> @*Tıklandığında load fonksiyonunu çalıştırıp verileri getiriyor*@
+
+    <h1>Kurs Oluştur</h1>
+    <form id="course-form">
+        <label for="title">Başlık:</label>
+        <input type="text" id="title" name="title" required><br>
+
+        <label for="name">İsim:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="price">Fiyat:</label>
+        <input type="number" id="price" name="price" required><br>
+
+        <label for="description">Açıklama:</label>
+        <textarea id="description" name="description" required></textarea><br>
+
+        <label for="categoryId">Kategori ID:</label>
+        <input type="number" id="categoryId" name="categoryId" required><br>
+
+        <button type="button" id="submit-button">Oluştur</button>
+    </form>
 </body>
+
+
